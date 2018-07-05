@@ -9,11 +9,19 @@
 <body>
 <h2> Enter Details</h2>
 <form action="/mvc/submitForm.html">
-<label for="studnetName">name</label>
-<input type ="text" name="studentName"><br>
-<label for="studentHobby">hobby</label>
-<input type="text" name="studentHobby"><br>
-<input type="submit">
+<table>
+<tr>
+<td><label for="studnetName">name</label></td>
+<td><input type ="text" name="studentName"></td>
+</tr>
+<tr>
+<td><label for="studentHobby">hobby</label></td>
+<td><input type="text" name="studentHobby"></td>
+</tr>
+<tr>
+<td><input type="submit"></td>
+</tr>
+</table>
 </form>
 
 </body>

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.spring.ModelClass.Student;
+
 @Controller
 public class AdmissionFormController 
 {
@@ -23,8 +25,11 @@ public class AdmissionFormController
 	{
 		String name = reqparam.get("studentName");
 		String hobby = reqparam.get("studentHobby");
+		Student student1 = new Student();
+		student1.setStudentName(name);
+		student1.setStudentHobby(hobby);
 		ModelAndView obj = new ModelAndView("Success");
-		obj.addObject("msg", "Your name = "+ name + " hobby = " + hobby );
+		obj.addObject("student1",student1 );
 		return obj;
 	}
 	

@@ -7,7 +7,16 @@
 <title>Successful</title>
 </head>
 <body>
-<h2>Your admission to our college</h2>
-<p>${msg}</p>
+<h2>Your Entered details are : </h2>
+<table>
+<tr>
+<td>Entered Name : </td>
+<td>${student1.studentName}</td>
+</tr>
+<tr>
+<td>Entered Hobby : </td>
+<td>${student1.studentHobby}</td>
+</tr>
+</table>
 </body>
 </html>
