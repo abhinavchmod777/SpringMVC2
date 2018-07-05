@@ -7,6 +7,7 @@
 <title>Successful</title>
 </head>
 <body>
+<h1>${headerMsg}</h1>
 <h2>Your Entered details are : </h2>
 <table>
 <tr>
@@ -17,6 +18,11 @@
 <td>Entered Hobby : </td>
 <td>${student1.studentHobby}</td>
 </tr>
+<tr>
+<td>Entered Mobile# : </td>
+<td>${student1.studentMobile}</td>
+</tr>
+
 </table>
 </body>
 </html>
