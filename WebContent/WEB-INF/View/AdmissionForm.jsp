@@ -26,6 +26,10 @@
 <td><input type="text" name="studentMobile"></td>
 </tr>
 <tr>
+<td><label for="studentDOB">Date of Birth</label></td>
+<td><input type="text" name="studentDOB"></td>
+</tr>
+<tr>
 <td><input type="submit"></td>
 </tr>
 </table>

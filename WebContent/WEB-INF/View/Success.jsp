@@ -22,6 +22,10 @@
 <td>Entered Mobile# : </td>
 <td>${student1.studentMobile}</td>
 </tr>
+<tr>
+<td>Entered DOB : </td>
+<td>${student1.studentDOB}</td>
+</tr>
 
 </table>
 </body>

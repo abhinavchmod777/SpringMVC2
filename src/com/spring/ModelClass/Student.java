@@ -1,11 +1,13 @@
 package com.spring.ModelClass;
 
+import java.util.Date;
+
 public class Student 
 {
 	private String studentName;
 	private String studentHobby;
 	private Long studentMobile;
-	
+	private Date studentDOB;
 	
 	public String getStudentName() {
 		return studentName;
@@ -24,6 +26,12 @@ public class Student
 	}
 	public void setStudentMobile(Long studentMobile) {
 		this.studentMobile = studentMobile;
+	}
+	public Date getStudentDOB() {
+		return studentDOB;
+	}
+	public void setStudentDOB(Date studentDOB) {
+		this.studentDOB = studentDOB;
 	}
 	
 	
